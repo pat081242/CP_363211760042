@@ -1,13 +1,10 @@
 package Exersice;
 import java.util.Scanner;
 // รับค่าตัวเลขจากผู้ใช้จำนวน5ครั้ง จากนั้นแสดงผลรวม และค่าเฉลี่ย
-public class Exercise_Lad3_1 {
+public class Exercise_Lab3_1 {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-
         double total = 0;
-
         for (int i = 0; i < 5; i++) {
             System.out.println("Enter number:");
             double num = sc.nextInt();
@@ -19,9 +16,5 @@ public class Exercise_Lad3_1 {
         System.out.println("Total:"+total);
         System.out.println("Average:"+avg);
 
-
     }
 }
-
-
-
